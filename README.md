@@ -1,4 +1,4 @@
-# surfs_up
+# Surfs_Up Module 9 Challenge
 ## Overview of the Analysis
 This analysis was done in order to give W. Avy more information regarding temperature trends in Oahu before he made a final decision on where to open his surf shop.  He wanted the temperature trends for the months of June, and Dec from each of the stations.  In order to do that I queried the Hawaii.sqlite database to filter out the dates and the temperature recordings for each date from all of the June recordings, and then from all of the December recordings.  I created a list from the june temperatures, and then put those into a DataFrame and then used .describe() to get the statistics for June.  I then did the same with December.
 ## Results
